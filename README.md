@@ -16,9 +16,11 @@ This repository contains a comprehensive analysis of user responses related to C
 
 1. Mount Google Drive:
 Run mount_drive.py to mount your Google Drive.
+```
+   from google.colab import drive
+   drive.mount('/content/drive')
+```
 
-   ''from google.colab import drive
-   drive.mount('/content/drive')''
 
 3. Run Each Analysis Script:
  Run each script in sequence to perform the analysis and save the results to your Google Drive.
