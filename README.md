@@ -24,12 +24,15 @@ Run mount_drive.py to mount your Google Drive.
 
 3. Run Each Analysis Script:
  Run each script in sequence to perform the analysis and save the results to your Google Drive.
+
+```
 python scripts/sentiment_analysis.py
 python scripts/detailed_sentiment_breakdown.py
 python scripts/word_cloud.py
 python scripts/topic_modeling.py
 python scripts/correlation_analysis.py
 python scripts/frequent_bigrams.py
+```
 
 
 
